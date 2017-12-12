@@ -1,0 +1,23 @@
+in:
+  type: yahoo_ads
+  location: xxxxx.yahooapis.jp
+  version: Vx.x
+  license: xxxx-xxxx-xxxx-xxxx
+  api_account: yyyy-yyyy-yyyy-yyyy
+  api_password: xyz
+  namespace: http://abc.yahooapis.jp/V0
+  report_type: CAMPAIGN
+  account_id: 000000000
+  date_range_min: 20171201
+  date_range_max: 20171210
+  columns:
+    - CAMPAIGN_NAME
+    - DAY
+    - IMPS
+    - CLICK
+    - COST
+    - CONVERSIONS
+out:
+  type: stdout
+
+
