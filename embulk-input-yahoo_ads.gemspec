@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.description   = "Loads records from Yahoo Ads."
   spec.email         = ["ryota.yamada@principle-c.com"]
   spec.licenses      = ["MIT"]
-  # TODO set this: spec.homepage      = "https://github.com/ryota.yamada/embulk-input-yahoo_ads"
+  spec.homepage      = "https://github.com/principle-c/embulk-input-yahoo_ads"
 
   spec.files         = `git ls-files`.split("\n") + Dir["classpath/*.jar"]
   spec.test_files    = spec.files.grep(%r{^(test|spec)/})
