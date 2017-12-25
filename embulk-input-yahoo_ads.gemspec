@@ -1,7 +1,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "embulk-input-yahoo_ads"
-  spec.version       = "0.1.0"
+  spec.version       = "0.1.1"
   spec.authors       = ["ryota.yamada"]
   spec.summary       = "Yahoo Ads input plugin for Embulk"
   spec.description   = "Loads records from Yahoo Ads."
